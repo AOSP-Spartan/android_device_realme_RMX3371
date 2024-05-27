@@ -63,6 +63,9 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Camera
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.spartan
+
 # Display
 TARGET_SCREEN_DENSITY := 480
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
