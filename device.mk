@@ -218,6 +218,11 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_oplus)
 
+# Kernel
+LOCAL_KERNEL := device/realme/RMX3371-kernel/Image
+PRODUCT_COPY_FILES += \
+	$(LOCAL_KERNEL):kernel
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
