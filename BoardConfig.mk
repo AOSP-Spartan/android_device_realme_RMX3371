@@ -9,6 +9,9 @@ include device/realme/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/realme/RMX3371
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := rmx3371,RMX3371,RE54E4L1
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
