@@ -11,14 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from RMX3371 device
 $(call inherit-product, device/realme/RMX3371/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_RMX3371
+PRODUCT_NAME := aosp_RMX3371
 PRODUCT_DEVICE := RMX3371
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3371
+
+# PixelOS flags
+PRODUCT_NO_CAMERA := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
