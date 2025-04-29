@@ -86,9 +86,6 @@ ODM_MANIFEST_NFC_FILES := \
     $(DEVICE_PATH)/manifest_odm.xml \
     $(DEVICE_PATH)/manifest-nfc.xml
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_oplus
-
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 2
 BOARD_KERNEL_BASE := 0x00000000
