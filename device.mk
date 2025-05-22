@@ -288,6 +288,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# PI Hooks
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.sys.pihooks.disable.gms_props=true
+    persist.sys.pihooks.disable.gms_key_attestation_block=true
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
