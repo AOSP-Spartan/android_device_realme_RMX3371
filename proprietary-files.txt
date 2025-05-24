@@ -74,7 +74,7 @@ vendor/lib/libaudcal.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libhdmipassthru.so
-vendor/lib/libqtigef.so
+vendor/lib/libqtigef.so;MODULE_SUFFIX=_vendor
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
