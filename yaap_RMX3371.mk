@@ -12,14 +12,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from RMX3371 device
 $(call inherit-product, device/realme/RMX3371/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common YAAP stuff.
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_RMX3371
+PRODUCT_NAME := yaap_RMX3371
 PRODUCT_DEVICE := RMX3371
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3371
+
+TARGET_BUILD_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
