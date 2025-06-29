@@ -19,24 +19,3 @@ install_symlink {
     installed_location: "firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini",
     symlink_target: "/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini",
 }
-
-install_symlink {
-    name: "lib64_com.qti.stats.haf.so_symlink",
-    vendor: true,
-    installed_location: "lib64/camera/components/com.qti.stats.haf.so",
-    symlink_target: "/odm/lib64/camera/components/com.qti.stats.haf.so",
-}
-
-install_symlink {
-    name: "lib64_com.qti.stats.pdlib.so_symlink",
-    vendor: true,
-    installed_location: "lib64/camera/components/com.qti.stats.pdlib.so",
-    symlink_target: "/odm/lib64/camera/components/com.qti.stats.pdlib.so",
-}
-
-install_symlink {
-    name: "lib64_libipebpsstriping.so_symlink",
-    vendor: true,
-    installed_location: "lib64/libipebpsstriping.so",
-    symlink_target: "/odm/lib64/camera/components/libipebpsstriping.so",
-}
