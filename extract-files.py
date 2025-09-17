@@ -10,12 +10,12 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'vendor/oneplus/sm8250-common',
+    'vendor/realme/sm8250-common',
 ]
 
 module = ExtractUtilsModule(
-    'lemonades',
-    'oneplus',
+    'RMX3371',
+    'realme',
     namespace_imports=namespace_imports,
 )
 

@@ -1,9 +1,9 @@
 # Bluetooth
-bluetooth.device.default_name=OnePlus 9R
+bluetooth.device.default_name=realme GT NEO 3T
 
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
 # USB
-vendor.usb.product_string=OnePlus 9R
+vendor.usb.product_string=realme GT NEO 3T
