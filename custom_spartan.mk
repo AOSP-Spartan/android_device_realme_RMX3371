@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from RMX3371 device
 $(call inherit-product, device/realme/RMX3371/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_RMX3371
+PRODUCT_NAME := custom_RMX3371
 PRODUCT_DEVICE := RMX3371
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
